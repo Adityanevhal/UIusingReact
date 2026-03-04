@@ -5,7 +5,7 @@ const Section1 = () => {
   return (
     <div className='h-screen w-full'>
       <Navbar />
-     <Page1Content/>
+      <Page1Content/>
     </div>
   )
 }
