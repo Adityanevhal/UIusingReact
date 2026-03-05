@@ -3,9 +3,9 @@ import RightCardContent from './RightCardContent'
 const RightCard = (props) => {
   return (
     <div className="h-full w-80 shrink-0 overflow-hidden relative rounded-4xl bg-amber-300">
-       <img className='h-full w-full object-cover' src="./src/assets/propic/image3.png" alt="" />
+       <img className='h-full w-full object-cover' src={props.img} alt="" />
        
-       <RightCardContent/>
+       <RightCardContent id={props.id} tag={props.tag} />
     
        
         

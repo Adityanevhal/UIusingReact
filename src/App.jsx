@@ -4,31 +4,30 @@ const App = () => {
 
 const users = [
     {
-      img:'./src/assets/propic/image3.png',
+      img:'./src/assets/propic/image1.png',
       intro:'',
       tag:'Satisfied'
     },
     {
-      img:'/src/assets/propic/image.png',
+      img:'/src/assets/propic/image2.png',
       intro:'',
-      tag:'UnderServed'
+      tag:'Underserved'
     },
     {
-      img:'./src/assets/propic/image4.png ',
+      img:'./src/assets/propic/image3.png ',
       intro:'',
       tag:'UnderBanked'
     },
     {
-      img:'./src/assets/propic/image5.png',
+      img:'./src/assets/propic/image4.png',
       intro:'',
-      tag:''
+      tag:'Waiting'
     },
     {
-      img:'./src/assets/propic/image2.png',
+      img:'./src/assets/propic/image5.png',
       intro:'',
-      tag:''
+      tag:'Excluded'
     }
-
 ]
 
   return (
