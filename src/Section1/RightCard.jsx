@@ -5,7 +5,7 @@ const RightCard = (props) => {
     <div className="h-full w-80 shrink-0 overflow-hidden relative rounded-4xl bg-amber-300">
        <img className='h-full w-full object-cover' src={props.img} alt="" />
        
-       <RightCardContent id={props.id} tag={props.tag} />
+       <RightCardContent id={props.id} color={props.color} tag={props.tag} />
     
        
         

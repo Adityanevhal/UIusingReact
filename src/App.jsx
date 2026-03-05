@@ -6,26 +6,31 @@ const users = [
     {
       img:'./src/assets/propic/image1.png',
       intro:'',
+      color:'royalblue',
       tag:'Satisfied'
     },
     {
       img:'/src/assets/propic/image2.png',
       intro:'',
+      color:'lightseagreen',
       tag:'Underserved'
     },
     {
       img:'./src/assets/propic/image3.png ',
       intro:'',
+      color:'darkorange',
       tag:'UnderBanked'
     },
     {
       img:'./src/assets/propic/image4.png',
       intro:'',
+      color:'lightgreen',
       tag:'Waiting'
     },
     {
       img:'./src/assets/propic/image5.png',
       intro:'',
+      color:'lightcoral',
       tag:'Excluded'
     }
 ]
