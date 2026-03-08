@@ -1,6 +1,10 @@
 import Section1 from './Section1/Section1'
 import Section2 from './Section2/Section2'
 import image1 from './assets/propic/image1.png'
+import image2 from './assets/propic/image2.png'
+import image3 from './assets/propic/image3.png'
+import image4 from './assets/propic/image4.png'
+import image5 from './assets/propic/image5.png'
 const App = () => {
 
 const users = [
@@ -11,25 +15,25 @@ const users = [
       tag:'Satisfied'
     },
     {
-      img:'/src/assets/propic/image2.png',
+      img: image2,
       intro:'',
       color:'lightseagreen',
       tag:'Underserved'
     },
     {
-      img:'./src/assets/propic/image3.png ',
+      img: image3,
       intro:'',
       color:'darkorange',
       tag:'UnderBanked'
     },
     {
-      img:'./src/assets/propic/image4.png',
+      img: image4,
       intro:'',
       color:'lightgreen',
       tag:'Waiting'
     },
     {
-      img:'./src/assets/propic/image5.png',
+      img: image5,
       intro:'',
       color:'lightcoral',
       tag:'Excluded'
