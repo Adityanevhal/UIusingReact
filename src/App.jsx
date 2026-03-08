@@ -1,10 +1,11 @@
 import Section1 from './Section1/Section1'
 import Section2 from './Section2/Section2'
+import image1 from './assets/propic/image1.png'
 const App = () => {
 
 const users = [
     {
-      img:'./src/assets/propic/image1.png',
+      img: image1,
       intro:'',
       color:'royalblue',
       tag:'Satisfied'
